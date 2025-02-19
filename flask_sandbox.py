@@ -2,6 +2,9 @@
 
 # 1. Importing necessary libraries
 from flask import Flask, render_template, request, redirect, url_for
+import pandas as pd
+import pyodbc
+
 
 # 2. Creating a Flask app instance
 # This creates an instance of the Flask class, which is the WSGI application.
